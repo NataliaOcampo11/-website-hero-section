@@ -1,63 +1,40 @@
 body {
-  margin: 0; /* Removes the default space around the page. */
-  background-color: #f8f5ef; /* Gives the page a warm ivory background. */
-  color: #302c26; /* Sets the text to a warm charcoal. */
-  font-family: Arial, sans-serif; /* Uses a simple font for the body text. */
-  line-height: 1.6; /* Adds space between lines of text. */
+    margin: 0; /* Removes default page spacing */
+    font-family: Arial, sans-serif; /* Sets the text font */
+    background-color: #f4f1eb; /* Sets a warm neutral background */
+    color: #3e3933; /* Sets the main text color */
 }
 
 .hero {
-  padding: 80px 24px; /* Adds space inside the hero section. */
-  background-color: #e9e0d2; /* Gives the hero a soft sand background. */
-  text-align: center; /* Centers the text and button. */
+    text-align: center; /* Centers the content horizontally */
+    padding: 100px 30px; /* Adds space inside the hero section */
+    background-color: #e5ded2; /* Sets a soft earthy background */
 }
 
-.hero-image {
-  display: block; /* Places the image on its own line. */
-  width: 140px; /* Keeps the image small. */
-  max-width: 100%; /* Lets the image shrink on narrow screens. */
-  height: auto; /* Preserves the image's proportions. */
-  margin: 0 auto 20px; /* Centers the image and adds space below it. */
-  border-radius: 16px; /* Rounds the image corners. */
-  box-shadow: 0 6px 18px rgba(48, 44, 38, 0.18); /* Adds a soft shadow behind the image. */
+h1 {
+    font-size: 56px; /* Makes the main heading larger */
+    margin-bottom: 10px; /* Adds space below the heading */
+    color: #4a4036; /* Sets a dark brown heading color */
 }
 
-.hero h1 {
-  margin: 0 0 12px; /* Adds space below the heading. */
-  font-family: "Rubik", sans-serif; /* Uses Rubik with a fallback font. */
-  font-weight: 700; /* Uses the bold weight loaded from Google Fonts. */
-  font-size: 48px; /* Makes the brand name the largest text. */
-  line-height: 1.1; /* Keeps the heading compact if it wraps. */
+h2 {
+    font-size: 28px; /* Sets the subheading size */
+    font-weight: normal; /* Makes the subheading lighter */
+    color: #776b5e; /* Sets a muted brown color */
 }
 
-.subheading {
-  margin: 0 0 16px; /* Adds space below the subheading. */
-  color: #4a503c; /* Gives the subheading a muted olive color. */
-  font-size: 24px; /* Makes the subheading larger than the body text. */
-  font-weight: bold; /* Emphasizes the subheading. */
-}
-
-.description {
-  max-width: 460px; /* Keeps the paragraph at a comfortable reading width. */
-  margin: 0 auto 28px; /* Centers the paragraph and adds space below it. */
+p {
+    font-size: 18px; /* Sets the description text size */
+    max-width: 500px; /* Limits the width of the description */
+    margin: 20px auto 35px; /* Centers the text and adds spacing */
+    line-height: 1.6; /* Adds space between lines */
 }
 
 .button {
-  display: inline-block; /* Lets the link take padding like a button. */
-  padding: 12px 24px; /* Adds space around the button label. */
-  border-radius: 8px; /* Rounds the button corners. */
-  background-color: #4a503c; /* Gives the button a deep olive background. */
-  color: #ffffff; /* Makes the button label white. */
-  font-weight: bold; /* Emphasizes the button label. */
-  text-decoration: none; /* Removes the link underline. */
-}
-
-.button:hover {
-  background-color: #353b2b; /* Darkens the button when the mouse hovers over it. */
-}
-
-.overview {
-  max-width: 560px; /* Keeps the overview easy to read. */
-  margin: 0 auto; /* Centers the overview on the page. */
-  padding: 40px 24px; /* Adds space inside the overview section. */
+    background-color: #7d6b55; /* Sets an earthy button color */
+    color: white; /* Makes the button text white */
+    padding: 14px 28px; /* Adds space inside the button */
+    text-decoration: none; /* Removes the link underline */
+    display: inline-block; /* Allows padding around the link */
+    border-radius: 4px; /* Slightly rounds the corners */
 }
