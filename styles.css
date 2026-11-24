@@ -11,7 +11,18 @@ body {
     background-color: #e5ded2; /* Sets a soft earthy background */
 }
 
+.chair-image {
+    width: 180px; /* Sets the image width */
+    max-width: 100%; /* Prevents the image from overflowing */
+    height: auto; /* Maintains the image proportions */
+    border-radius: 12px; /* Rounds the image corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Adds a soft shadow */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+
 h1 {
+    font-family: 'Rubik', sans-serif; /* Applies the Google Font */
+    font-weight: 700; /* Makes the heading bold */
     font-size: 56px; /* Makes the main heading larger */
     margin-bottom: 10px; /* Adds space below the heading */
     color: #4a4036; /* Sets a dark brown heading color */
